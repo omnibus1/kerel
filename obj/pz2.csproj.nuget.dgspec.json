@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/konrad/Desktop/pz2/pz2.csproj": {}
+    "F:\\code\\CV\\kerel\\pz2.csproj": {}
   },
   "projects": {
-    "/home/konrad/Desktop/pz2/pz2.csproj": {
+    "F:\\code\\CV\\kerel\\pz2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/konrad/Desktop/pz2/pz2.csproj",
+        "projectUniqueName": "F:\\code\\CV\\kerel\\pz2.csproj",
         "projectName": "pz2",
-        "projectPath": "/home/konrad/Desktop/pz2/pz2.csproj",
-        "packagesPath": "/home/konrad/.nuget/packages/",
-        "outputPath": "/home/konrad/Desktop/pz2/obj/",
+        "projectPath": "F:\\code\\CV\\kerel\\pz2.csproj",
+        "packagesPath": "C:\\Users\\apple\\.nuget\\packages\\",
+        "outputPath": "F:\\code\\CV\\kerel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/konrad/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\apple\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -53,16 +53,35 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.16, 6.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.16, 6.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.16, 6.0.16]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.16, 6.0.16]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.116/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
